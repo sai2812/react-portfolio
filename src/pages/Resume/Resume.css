@@ -1,0 +1,28 @@
+.aboutme_text {
+  font-size: 13px !important;
+  color: #4c4c4c;
+  line-height: 24px !important;
+  white-space: pre-line;
+}
+
+.timeline_content .timeline_tile {
+  font-weight: 500;
+  font-size: 16px;
+  /* line-height: 25px; */
+  padding: 2px 0px 0px 0px !important;
+  margin: 0px !important;
+}
+
+.timeline_date {
+  font-size: 12px;
+  padding: 3px 0;
+  display: block;
+  font-weight: 400 !important;
+}
+
+.timeline_dec {
+  color: #989898;
+  font-weight: 400;
+  line-height: 18px;
+  font-size: 13px;
+}
