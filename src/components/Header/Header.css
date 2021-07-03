@@ -16,6 +16,11 @@
   font-weight: 500;
   color: var(--main-color) !important;
 }
+.center_align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .header .header_home {
   background-color: var(--main-color);
@@ -40,4 +45,5 @@
 
 .header_left {
   margin-right: auto !important ;
+  padding-left: 10px;
 }

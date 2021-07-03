@@ -33,7 +33,7 @@ const Header = (props) => {
 
       <Navbar.Toggle />
 
-      <Navbar.Collapse>
+      <Navbar.Collapse className="center_align">
         <Nav className="header_left">
           <Nav.Link
             as={NavLink}
