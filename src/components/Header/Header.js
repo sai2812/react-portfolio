@@ -33,8 +33,8 @@ const Header = (props) => {
 
       <Navbar.Toggle />
 
-      <Navbar.Collapse className="center_align">
-        <Nav className="header_left">
+      <Navbar.Collapse>
+        <Nav className="header_left pl-3">
           <Nav.Link
             as={NavLink}
             to="/"
@@ -52,7 +52,7 @@ const Header = (props) => {
             Skillset
           </Nav.Link>
         </Nav>
-        <div className="header_right">
+        <div className="header_right pl-3 pb-1">
           {Object.keys(resumeData.social).map((key) => {
             return (
               <a
@@ -66,13 +66,15 @@ const Header = (props) => {
             );
           })}
         </div>
-        <CustomButton
-          text={"Hire Me"}
-          icon={<Mail />}
-          mail={
-            "mailto:sai281294@gmail.com?subject=Can you please send me a copy of your resume for my reference!&amp;body=Hi, Can you please send me a copy of your resume for my reference? Thanks!"
-          }
-        ></CustomButton>
+        <span className="pl-3">
+          <CustomButton
+            text={"Hire Me"}
+            icon={<Mail />}
+            mail={
+              "mailto:sai281294@gmail.com?subject=Can you please send me a copy of your resume for my reference!&amp;body=Hi, Can you please send me a copy of your resume for my reference? Thanks!"
+            }
+          ></CustomButton>
+        </span>
       </Navbar.Collapse>
     </Navbar>
   );
