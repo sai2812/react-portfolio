@@ -8,12 +8,12 @@ let data = {
   name: "B Saichaitanya",
   title: "Full Stack Developer",
   birthday: "28th",
-  email: "sai281294@gmail.com",
+  email: "saichaitanya.bk@gmail.com",
   address: "123 test",
   phone: "012356655",
   social: {
     Gmail: {
-      link: "mailto:sai281294@gmail.com?subject=Can you please send me a copy of your resume for my reference!&amp;body=Hi, Can you please send me a copy of your resume for my reference? Thanks!",
+      link: "mailto:saichaitanya.bk@gmail.com?subject=Can you please send me a copy of your resume for my reference!&amp;body=Hi, Can you please send me a copy of your resume for my reference? Thanks!",
       text: "Lets catch up",
       icon: <MailIcon />,
     },
@@ -52,14 +52,14 @@ let data = {
     {
       title: "Deloitte",
       Date: "Nov 2020 - Present",
-      description: `Role : Full Stack Developer
+      description: `Role : Consultant
         IDE : Visual Studio Code, Git , AWS Console
-        Tech Stack : AWS-lambda,AWS-DynamoDB, Node.js`,
+        Tech Stack : NodeJs, AWS, Mocha`,
     },
     {
       title: "Inrhythms Solutions",
       Date: "Nov 2019 - Nov 2020",
-      description: `Role : UI/Angular Developer
+      description: `Role : Software Engineer, Grade: A2
         IDE : Visual Studio Code, Visual Studio
         Tech Stack : Angular 8, Bootstrap 4,Ag-Grid ,Lodash,
         Ngx-bootstrap,Angular2-notifications,NgSelect.`,
@@ -67,7 +67,7 @@ let data = {
     {
       title: "VAM",
       Date: "Aug 2017 - Nov 2019",
-      description: `Role : UI/Angular Developer.
+      description: `Role : Software Engineer
         IDE/Tools : Visual Studio Code,Eclipse,TortoiseSVN.
         Tech Stack : Angular 6, Bootstrap 4,Prime-Ng.`,
     },
